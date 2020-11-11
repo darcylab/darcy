@@ -21,7 +21,7 @@ $nord14: #a3be8c;
 $nord15: #b48ead;
 
 body {
-  background-color: $nord4;
+  background-color: $nord6;
   color: $nord3;
 }
 
@@ -43,6 +43,7 @@ a {
 
 a:hover, a:focus {
   color: $nord9;
+  font-weight: normal;
 }
 
 a small {
@@ -54,7 +55,7 @@ a:hover small {
 }
 
 blockquote {
-  border-left:1px solid $nord6;
+  border-left:1px solid $nord4;
 }
 
 code, pre {
@@ -63,11 +64,11 @@ code, pre {
 
 pre {
   background: $nord5;
-  border:1px solid $nord6;
+  border:1px solid $nord4;
 }
 
 th, td {
-  border-bottom:1px solid $nord6;
+  border-bottom:1px solid $nord4;
 }
 
 dt {
@@ -80,11 +81,11 @@ th {
 
 ul.downloads {
   background: $nord5;
-  border:1px solid $nord6;
+  border:1px solid $nord4;
 }
 
 .downloads li {
-  border-right:1px solid $nord6;
+  border-right:1px solid $nord4;
 }
 
 .downloads a {
@@ -96,7 +97,7 @@ ul.downloads {
 }
 
 .downloads ul a:active {
-  background-color: $nord5;
+  background-color: $nord4;
 }
 
 strong {
@@ -108,13 +109,13 @@ strong {
 }
 
 hr {
-  background: $nord6;
+  background: $nord4;
 }
 
 @media print, screen and (max-width: 960px) {
 
   section {
-    border:1px solid $nord6;
+    border:1px solid $nord4;
   }
 }
 
