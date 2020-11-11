@@ -1,4 +1,125 @@
 ---
 ---
 
-@import "jekyll-theme-minimal";
+@import "{{ site.theme }}";
+
+$nord0: #2e3440;
+$nord1: #3b4252;
+$nord2: #434c5e;
+$nord3: #4c566a;
+$nord4: #d8dee9;
+$nord5: #e5e9f0;
+$nord6: #eceff4;
+$nord7: #8fbcbb;
+$nord8: #88c0d0;
+$nord9: #81a1c1;
+$nord10: #5e81ac;
+$nord11: #bf616a;
+$nord12: #d08770;
+$nord13: #ebcb8b;
+$nord14: #a3be8c;
+$nord15: #b48ead;
+
+body {
+  background-color: $nord4;
+  color: $nord3;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: $nord0;
+}
+
+h2 {
+  color: $nord1;
+}
+
+h3, h4, h5, h6 {
+  color: $nord2;
+}
+
+a {
+  color: $nord8;
+}
+
+a:hover, a:focus {
+  color: $nord9;
+}
+
+a small {
+  color: $nord3;
+}
+
+a:hover small {
+  color: $nord3;
+}
+
+blockquote {
+  border-left:1px solid $nord6;
+}
+
+code, pre {
+  color: $nord1;
+}
+
+pre {
+  background: $nord5;
+  border:1px solid $nord6;
+}
+
+th, td {
+  border-bottom:1px solid $nord6;
+}
+
+dt {
+  color: $nord1;
+}
+
+th {
+  color: $nord1;
+}
+
+ul.downloads {
+  background: $nord5;
+  border:1px solid $nord6;
+}
+
+.downloads li {
+  border-right:1px solid $nord6;
+}
+
+.downloads a {
+  color: $nord2;
+}
+
+.downloads a:hover, .downloads a:focus {
+  color: $nord3;
+}
+
+.downloads ul a:active {
+  background-color: $nord5;
+}
+
+strong {
+  color: $nord0;
+}
+
+.downloads a strong {
+  color: $nord0;
+}
+
+hr {
+  background: $nord6;
+}
+
+@media print, screen and (max-width: 960px) {
+
+  section {
+    border:1px solid $nord6;
+  }
+}
+
+@media print {
+  body {
+    color: $nord1;
+  }
+}
