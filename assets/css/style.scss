@@ -23,7 +23,7 @@ $nord15: #b48ead;
 body {
     background-color: #fff;
     padding:50px;
-    font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font:14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: $nord3;
     font-weight:400;
   }
@@ -60,6 +60,7 @@ body {
   
   a:hover, a:focus {
     color: nord9;
+    font-weight:normal;
   }
   
   a small {
@@ -166,6 +167,7 @@ body {
   
   .downloads a:hover, .downloads a:focus {
     color: $nord9;
+    font-weight:normal;
   }
   
   .downloads ul a:active {
